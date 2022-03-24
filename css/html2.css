@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
 body {
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
   background-color: rgb(146, 143, 143);
 }
@@ -42,19 +45,6 @@ nav a {
 
 nav a:hover {
   color: red;
-}
-
-nav a::before {
-  content: '';
-  display: block;
-  height: 5px;
-  background-color: black;
-
-  position: absolute;
-  top: 0;
-  width: 0%;
-
-  transition: all ease-in-out 250ms;
 }
 
 nav a:hover::before {
